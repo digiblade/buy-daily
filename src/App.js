@@ -194,96 +194,20 @@ export default function App() {
               <button className="btn">Add to cart</button>
             </div>
           </div>
-          <div className="product-card">
-            <img className="fevorite" src={heart} alt="" />
-            <img
-              className="product-image"
-              src={headphone}
-              alt="headphones"
-              srcset=""
-            />
-            <span className="product-name">Boat Headphones</span>
-            <span className="product-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-              cumque est neque obcaecati error debitis exercitationem eveniet
-              eum odio, accusantium quidem tempora autem aliquid suscipit ipsum.
-              Amet id similique sed.
-            </span>
-            <div className="price-box">
-              <div className="offer">
-                <span className="price cut-line">$99/-</span> 10% off
-              </div>
-              <span className="price ">$79/-</span>{" "}
-            </div>
-            <div className="btn-group">
-              <button className="btn">Buy</button>
-              <button className="btn">Add to cart</button>
-            </div>
-          </div><div className="product-card">
-            <img className="fevorite" src={heart} alt="" />
-            <img
-              className="product-image"
-              src={headphone}
-              alt="headphones"
-              srcset=""
-            />
-            <span className="product-name">Boat Headphones</span>
-            <span className="product-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-              cumque est neque obcaecati error debitis exercitationem eveniet
-              eum odio, accusantium quidem tempora autem aliquid suscipit ipsum.
-              Amet id similique sed.
-            </span>
-            <div className="price-box">
-              <div className="offer">
-                <span className="price cut-line">$99/-</span> 10% off
-              </div>
-              <span className="price ">$79/-</span>{" "}
-            </div>
-            <div className="btn-group">
-              <button className="btn">Buy</button>
-              <button className="btn">Add to cart</button>
-            </div>
-          </div>
-          <div className="product-card">
-            <img className="fevorite" src={heart} alt="" />
-            <img
-              className="product-image"
-              src={headphone}
-              alt="headphones"
-              srcset=""
-            />
-            <span className="product-name">Boat Headphones</span>
-            <span className="product-description">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-              cumque est neque obcaecati error debitis exercitationem eveniet
-              eum odio, accusantium quidem tempora autem aliquid suscipit ipsum.
-              Amet id similique sed.
-            </span>
-            <div className="price-box">
-              <div className="offer">
-                <span className="price cut-line">$99/-</span> 10% off
-              </div>
-              <span className="price ">$79/-</span>{" "}
-            </div>
-            <div className="btn-group">
-              <button className="btn">Buy</button>
-              <button className="btn">Add to cart</button>
-            </div>
-          </div>
+          
         </div>
       </section>
       <footer>
-        <div className="">
-          <span>Buy-daily</span>
-          <span>
+        <div className="footer-description">
+          <span className="logo logo-dark">Buy-daily</span>
+          <span className="description">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nemo
             dolores perferendis vitae quis impedit est alias autem!
             Necessitatibus rem iure nisi impedit harum placeat suscipit mollitia
             quis doloremque reiciendis!
           </span>
         </div>
-        <div className="">
+        <div className="services">
           <ul>
             <li>Home</li>
             <li>Services</li>

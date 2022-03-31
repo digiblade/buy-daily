@@ -11,7 +11,8 @@ header {
 }
 
 .logo {
-  font-weight: 600;
+  font-weight: 900;
+  font-size: larger;
 }
 .menu-item {
   display: flex;
@@ -143,7 +144,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 1.4rem;
-  width: 20vw;
+  min-width: 30vw;
   margin-right: 1.2rem;
 }
 .product-image {
@@ -213,6 +214,36 @@ a {
 
   user-select: none;
 }
-.product-list::-webkit-scrollbar {
-  /* display: none; */
+
+/* footer */
+footer{
+  display: flex;
+  background-color: #19063d;
+  margin-top: 20vh;
+  color: white;
+  padding: 2rem 4rem;
+  justify-content: space-between;
+}
+.footer-description{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.logo-dark{
+  color:#903cf3
+}
+.description{
+  color: #969696;
+  font-size: 0.8rem;
+}
+.services{
+  width: 30%;
+}
+.services ul{
+  list-style: none;
+  color: #969696;
+  font-weight: bold;
+}
+address{
+  color: #969696;
 }
