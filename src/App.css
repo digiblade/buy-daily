@@ -1,38 +1,218 @@
-.App {
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin: auto 4rem;
+}
+
+.logo {
+  font-weight: 600;
+}
+.menu-item {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #82888e;
+}
+.menu-item a {
+  padding-right: 0.8rem;
+  font-weight: bold;
+}
+.auth a {
+  padding-right: 0.4rem;
+  font-weight: 600;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  margin: auto 4rem;
+}
+.banner-image {
+  height: 100%;
+}
+.banner .banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #19063d;
+}
+.banner .banner-subtitle {
+  font-size: 1.2rem;
+  color: #7a7a7a;
+}
+
+/* search bar */
+.search-bar-bg {
+  height: 100%;
+  background: linear-gradient(180deg, #ffffff 50%, #f3f4f6 50%);
+}
+.search-bar {
+  display: flex;
+  position: relative;
+  top: 50%;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 2px 3px 15px #888888;
+  margin: 0 4rem;
+  padding: 2.4rem 0;
+  height: 20vh;
+}
+.search-filter {
+  display: flex;
+  flex-direction: column;
+}
+.search-filter label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #525252;
+  margin: 0.6rem 0;
+}
+.search-filter select {
+  border-style: none;
+  color: #525252;
+  font-size: 0.6rem;
+}
+.search-bar .search-field {
+  border-style: none;
+  box-shadow: 1px 1px 8px #888888;
+  padding: 0.6rem 0.4rem;
+  border-radius: 0.8rem;
+}
+.search-bar button {
+  border-style: none;
+  background-color: #903cf3;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+}
+
+/* features */
+.feature-board-bg {
+  background-color: #f3f4f6;
+  height: 60vh;
+  padding: 1.2rem 4rem;
+}
+
+.feature-board {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #19063d;
+  padding: 2rem 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.feature {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  box-shadow: 1px 1px 10px #bbbbbb;
+}
+.feature-icon {
+  height: 15vh;
+}
+
+/* product */
+.section-margin {
+  margin: 0 4rem;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+}
+
+.product-card {
+  box-shadow: 1px 1px 6px #888888;
+  display: flex;
+  flex-direction: column;
+  padding: 1.4rem;
+  width: 20vw;
+  margin-right: 1.2rem;
+}
+.product-image {
+  height: 30vh;
+  width: 30vh;
+  object-fit: cover;
+  align-items: center;
+  margin: 0 auto;
+}
+.product-name {
+  font-size: 1rem;
+  color: #19063d;
+  font-weight: bold;
+}
+.product-description {
+  font-size: 0.8rem;
+  color: #797979;
+  padding: 0.4rem 0;
+}
+.price-box{
+  display: flex;
+  flex-direction: column;
+}
+.price{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color:#19063d;
+  margin-right: 1.2rem;
+  
+}
+.cut-line{
+  font-size: 0.8rem;
+  color:#655b79;
+  text-decoration: line-through;
+}
+.offer{
+  font-size: 0.8rem;
+  color: #564d66;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.btn{
+  border-style: none;
+  background-color: #19063d;
+  border-radius: 1.2rem;
   color: white;
+  padding: 0.4rem 1.2rem;
+  width: fit-content;
+  margin:  0.4rem 0;
+
+}
+.btn-group{
+  display: flex;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.fevorite{
+  height: 5vh;
+  width: 5vh;
 }
+.product-list{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -ms-overflow-style: none;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  user-select: none;
+}
+.product-list::-webkit-scrollbar {
+  /* display: none; */
 }
