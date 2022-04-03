@@ -5,20 +5,27 @@
   color: white;
   margin: 0.6rem;
   font-weight: bold;
-  border-bottom-style:solid ;
-  border-bottom-color:white ;
+  border-bottom-style: solid;
+  border-bottom-color: white;
   padding-bottom: 2rem;
-  border-bottom-width:0.2px ;
+  border-bottom-width: 0.2px;
 }
-.drawer-logo{
-    font-size: 1.6rem;
+.drawer-logo {
+  font-size: 1.6rem;
 }
-.pages{
-    margin-top: 2rem;
-    margin-right: 0.8rem;
-    margin-left: 0.8rem;
+.pages-section {
+  margin-top: 2rem;
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
-.pages .page{
-    color: white;
-    font-weight: bold;
+.page{
+    padding: 0.8rem;
+}
+ .active{
+  background-color: #ab8fe048;
+  border-radius: 0.4rem;
+}
+.link-area {
+  color: white;
+  font-weight: 600;
 }
