@@ -2,3 +2,10 @@
     display: flex;
     flex: 1;
 }
+.top-navbar{
+    background-color: white;
+    padding: 1.2rem;
+    box-shadow: 1px 1px 10px #838383;
+    flex-grow: 1;
+   
+}

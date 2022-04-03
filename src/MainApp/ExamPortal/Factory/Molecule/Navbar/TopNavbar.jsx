@@ -1,15 +1,11 @@
-import React from 'react'
-import FontAwesome from 'react-fontawesome'
-export default function TopNavbar() {
+import React from "react";
+import "./TopNavbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+export default function TopNavbar(props) {
   return (
-    <div className="">
-         <FontAwesome
-        
-        name="rocket"
-        size="2x"
-        spin
-        style={{ textShadow: '0 1px 0 rgba(0, 0, 0, 0.1)' }}
-      />
+    <div className="top-navbar">
+      <FontAwesomeIcon onClick={props.onClick?props.onClick:{}} icon={faBars} color="black" />
     </div>
-  )
+  );
 }
