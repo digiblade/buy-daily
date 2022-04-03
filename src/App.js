@@ -6,6 +6,7 @@ import security from "./Assets/icons/security.png";
 import cloud from "./Assets/icons/cloud.png";
 import menu from "./Assets/icons/menu.png";
 import heart from "./Assets/icons/heart.png";
+import { Link } from "react-router-dom";
 export default function App() {
   return (
     <div>
@@ -17,7 +18,7 @@ export default function App() {
           <a href="">Categories</a>
         </div>
         <div className="auth">
-          <a href="">Login</a>
+          <a > <Link to="/exam-login">Login</Link> </a>
           <a href="">Register</a>
         </div>
       </header>
