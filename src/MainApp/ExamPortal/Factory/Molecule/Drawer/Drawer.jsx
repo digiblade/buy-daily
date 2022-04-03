@@ -1,6 +1,7 @@
 import React from "react";
 import "../Dashboard/Dashboard.css";
 import "./Drawer.css"
+import { Link } from "react-router-dom";
 export default function Drawer(props) {
   return (
     <div className={props.className}>
@@ -9,8 +10,8 @@ export default function Drawer(props) {
         </div>
         
         <div className="pages">
-            <div className="page">
-                dashboard
+            <div className="" >
+               <Link className="" to="/">dashboard</Link> 
             </div>
         </div>
     </div>

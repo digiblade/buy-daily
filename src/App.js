@@ -13,13 +13,13 @@ export default function App() {
       <header>
         <div className="logo">Buy Daily</div>
         <div className="menu-item">
-          <a href="">Home</a>
-          <a href="">Services</a>
-          <a href="">Categories</a>
+          <Link to="/" >Home</Link>
+          <Link to="/" >Services</Link>
+          <Link to="/" >Categories</Link>
         </div>
         <div className="auth">
-          <a > <Link to="/exam-login">Login</Link> </a>
-          <a href="">Register</a>
+          <Link to="/" > <Link to="/exam-login">Login</Link> </Link>
+          <Link to="/" >Register</Link>
         </div>
       </header>
       <section>

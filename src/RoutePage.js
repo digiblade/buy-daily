@@ -10,7 +10,7 @@ export default function RoutePage() {
         <Route path="/" element={<App />}></Route>
         <Route path="/Hi" element={"Hi"}></Route>
         <Route path="/exam-portal" element={<PortalFront/>}></Route>
-        <Route path="exam-login" element={<ExamLogin/>}></Route>
+        <Route path="/exam-login" element={<ExamLogin/>}></Route>
       </Routes>
     </Router>
   );
