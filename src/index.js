@@ -1,13 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import RouterPage from "./RoutePage"
-ReactDOM.render(
-  <React.StrictMode>
-    <RouterPage></RouterPage>
-  </React.StrictMode>,
-  document.getElementById('root')
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
+
+root.render(
+  <StrictMode>
+     <RouterPage></RouterPage>
+  </StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

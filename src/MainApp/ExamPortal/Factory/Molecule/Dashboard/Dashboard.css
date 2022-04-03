@@ -1,0 +1,17 @@
+root{
+    background-color: #838383;
+}
+.dashboard{
+    display: flex;
+}
+.sideboard{
+    width: 20%;
+    height:100vh;
+    background-color: #19063d;
+    box-shadow: 1px 1px 8px #838383;
+    border-top-right-radius:1.2rem ;
+}
+.main-content{
+    width: 100%;
+    background-color: #683fb3;
+}
