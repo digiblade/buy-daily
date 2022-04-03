@@ -9,8 +9,10 @@ export default function RoutePage() {
       <Routes>
         <Route path="/" element={<App />}></Route>
         <Route path="/Hi" element={"Hi"}></Route>
-        <Route path="/exam-portal" element={<PortalFront/>}></Route>
         <Route path="/exam-login" element={<ExamLogin/>}></Route>
+        <Route path="/exam-portal" element={<PortalFront/>}></Route>
+        <Route path="/exam-portal/:pagename" element={<PortalFront/>}></Route>
+        <Route path="*" element={<h1>404 page not found</h1>}></Route>
       </Routes>
     </Router>
   );
